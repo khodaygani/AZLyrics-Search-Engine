@@ -179,7 +179,7 @@ def search(words):
     """
     
     # Set up the connection to the remote datasource
-    client = MongoClient('mongodb://read:only@ds113586.mlab.com:13586/sse')
+    client = MongoClient('mongodb://user:pass@ds113586.mlab.com:13586/sse')
 
     sse = client.sse
     songs_collection = sse.songs

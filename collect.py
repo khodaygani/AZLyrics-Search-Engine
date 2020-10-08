@@ -8,7 +8,7 @@ import string
 import numpy as np
 import re
 import urllib2
-
+import markupsafe
 def getSongsURLs(mypath):
     # this function returns a list of URLs
     htmls = listdir(mypath)
